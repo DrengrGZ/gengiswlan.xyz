@@ -1,1 +1,5 @@
-### light/dark theme switch
+## Function
+light/dark theme 
+
+## Aesthetics
+sidenav font (maybe icono)

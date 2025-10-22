@@ -5,11 +5,19 @@
 <meta charset="utf=8">
 <link rel="stylesheet" type="text/css" href="./style.css">
 <link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
 <div class=sidenav>
-  <a href="#">Articulo</a>
+  <a href="#">Rants</a>
+  <button class=drop_btn>Rants drop
+  <i class="fa fa-caret-down"></i>
+  </button>
+  <div class=drop_content>
+    <a href='#'>Sobre los judios</a>
+    <a href='#'>Sobre el diablo</a>
+  </div>
   <a href="#">Articulo</a>
   <a href="#">Articulo</a>
   <a href="#">Articulo</a>
@@ -17,16 +25,37 @@
 </div>
 
 <div class=main>
-<h1 class=first_tittle>Gengiswlan's Webpage</h1>
   <div class=banner_img>
     <img src="" alt="banner idk">
   </div>
+<div class=text>
+<h1 class=first_tittle>Gengiswlan's Webpage</h1>
+
 
   <div>
-    <h2>sub-title</h2>
+    <h2 class=subtitle1>sub-title</h2>
     <p>here is some autistic information about me</p>
   </div>
 <img border=0 alt="arch pepe" src="./images/archpepe.jpg">
 </div>
+</div>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("drop_btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
 </body>
 </html>
