@@ -63,6 +63,14 @@
   border-radius: 10px;
 }
 
+
+.signature {
+  max-width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: right;
+}
+
 p {
   text-align: left;
   margin-left: 15px; 
@@ -88,3 +96,4 @@ p {
   padding-right: 8px;
   padding-top:5px;
 }
+
