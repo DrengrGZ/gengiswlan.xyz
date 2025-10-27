@@ -1,0 +1,19 @@
+:root {
+  --fontcol: #C1C497;
+  --bgcol: #141114;
+  --bgimg: url("./images/tokyo-night.jpeg");
+  --sw_bg: #1C1A22;
+  --sw_bor: solid #221E3C;
+  --sw_a_col: #615261;
+  --sw_a_borcol: #743276;
+  --sw_a_h_col: #743276;
+  --sw_a_h_borcol: #C1C497;
+  --sn_bg_col: #1C1A22;
+  --sn_a_col: #615261;
+  --sn_a_h_col: #C1C497;
+  --text_bgcol: rgb(28 26 34 / 60%);
+  --text_borcol: rgb(188 192 148 / 60%);
+  --ac_col_bgcol: #141114; 
+  --ac_col: #5F5160;
+  --drop_bgcol: #1C1A22;
+}

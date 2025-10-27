@@ -1,11 +1,13 @@
+@import './grv_var.css';
+
 * {
    font-family: 'Fira Code';
    }
 
 :root {
-  color: #EBDAB4;
-  background-color: #282828;
-  background-image: url("./images/3-ristretto.jpg");
+  color: var(--fontcol);
+  background-color: var(--bgcol);
+  background-image: var(--bgimg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,10 +22,10 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #3C3836;
+  background-color: var(--sw_bg);
   padding-top: 1.5%;
   padding-bottom: 1%;
-  border-bottom: solid #98971A;
+  border-bottom: var(--sw_bor);
 }
 
 .swtichers_sidenav a {
@@ -36,15 +38,16 @@
   text-align: center;
   cursor: pointer;
   margin-left: 15%;
-  color: #A89984;
-  border-color: #689D6A;
+  color: var(--sw_a_col);
+  border-color: var(--sw_a_borcol);
   text-decoration: none;
 }
 
 .swtichers_sidenav a:hover {
-  color: #689D6A;
-  border-color: #D79921;
+  color: var(--sw_a_h_col);
+  border-color: var(--sw_a_h_borcol);
 }
+
 
 .sidenav {
   height: 100%;
@@ -53,7 +56,7 @@
   z-index: 1;
   top: 50px;
   left: 0;
-  background-color: #3C3836;
+  background-color: var(--sn_bg_col);
   overflow-x: hidden;
   padding-top: 3%;
 }
@@ -62,7 +65,7 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #A89984;
+  color: var(--sn_a_col);
   display: block;
   border: none;
   background: none;
@@ -73,14 +76,15 @@
 }
 
 .sidenav a:hover, .drop_btn:hover {
-  color: #B8BB26;
+  color: var(--sn_a_h_col);
 }
+
 
 .main {
   margin-left: 300px; /* Same as the width of the sidenav 200px*/
   margin-right: auto;
   font-size: 16px; /* Increased text to enable scrolling */
-  padding: 0px 10px;font size navigation bar
+  padding: 0px 10px;
 }
 
 .text {
@@ -89,10 +93,10 @@
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(40 40 40 / 60%);
+  background-color: var(--text_bgcol);
   text-align: center;
   border-style: solid;
-  border-color: rgb(249 189 47 / 60%);
+  border-color: var(--text_borcol);
   border-radius: 10px;
 }
 
@@ -114,13 +118,13 @@ p {
   margin-bottom: 25px;
 }
 .active {
-  background-color: #282828 ;
-  color: #F44838;
+  background-color: var(--ac_bgcol);
+  color: var(--ac_col);
 }
 
 .drop_content {
   display: none;
-  background-color: #282828;
+  background-color: var(--drop_bgcol);
   padding-left: 16px;
   font-size: inherit;
 }

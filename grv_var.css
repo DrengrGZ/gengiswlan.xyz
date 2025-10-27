@@ -1,0 +1,19 @@
+:root {
+  --fontcol: #EBDAB4;
+  --bgcol: #282828;
+  --bgimg: url("./images/3-ristretto.jpg");
+  --sw_bg: #3C3836;
+  --sw_bor: solid #98971A;
+  --sw_a_col: #A89984;
+  --sw_a_borcol: #689D6A;
+  --sw_a_h_col: #689D6A;
+  --sw_a_h_borcol: #D79921;
+  --sn_bg_col: #3C3836;
+  --sn_a_col: #A89984;
+  --sn_a_h_col: #B8BB26;
+  --text_bgcol: rgb(40 40 40 / 60%);
+  --text_borcol: rgb(249 189 47 / 60%);
+  --ac_col_bgcol: #282828;
+  --ac_col: #F44838;
+  --drop_bgcol: #282828;
+}
