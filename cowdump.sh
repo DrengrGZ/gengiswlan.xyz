@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-filepath='/home/orion/code/web/homepage/dumpfile'
+filepath='/var/www/gengiswlan.xyz/articles/dumpfile'
 > $filepath
 fortune -a | cowsay >> $filepath
 exit
